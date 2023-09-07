@@ -1,10 +1,23 @@
-# def linear_search(arr,target):
-#     n = len(arr)
-#     for i in range(n):
-#         if  arr[i] == target:
-#             return f"The element {target} found in array and index is {i} "
-#     return f"The element {target} not Found in array."
+# String
+# generate username
 
-# arr = list(map(int,input("Enter array: ").split()))
-# target = int(input("Enter number to find it:"))
-# print(linear_search(arr,target))
+# user_input1 = input("Enter first name: ")
+# user_input2 = input("Enter last name: ")
+
+# uname = user_input1[0] + user_input2[:7]
+
+# print(uname)
+
+# no_of_testcase = int(input())
+# for _ in range(no_of_testcase):
+#     digit = input()
+#     count = 0
+#     num = digit 
+#     for i in digit:
+#         convert_i = int(i)
+#         try:
+#             if(int(num) % convert_i == 0):
+#                 count+=1
+#         except ZeroDivisionError:
+#             continue
+#     print(count)
