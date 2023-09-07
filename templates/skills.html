@@ -1,0 +1,17 @@
+{%extends 'base.html'%}
+{%block body%}
+<h1>My Skills</h1>
+<p>Hello From My Skills page</p>
+<form><div>Name<div><input type="text"></form>
+{%for skill in skills%}
+<div>{{skill[0]}} => {{skill[1]}} </div>
+
+{% endfor %}
+
+{%endblock%}
+
+
+
+{%block styles%}
+<link rel="stylesheet" href="{{url_for('static',filename=css_file)}}"/>
+{%endblock%}

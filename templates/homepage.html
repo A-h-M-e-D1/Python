@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{%block body%}
+
+Hello From Home page
+{% endblock %}
+
+{%block styles%}
+<link rel="stylesheet" href="{{url_for('static',filename=css_file)}}"/>
+{% endblock %}
